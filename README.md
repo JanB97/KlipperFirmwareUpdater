@@ -24,5 +24,7 @@ boards setting:
 5. Optional /by-id/ path if Canbridge-Board -> Set the path to you board (eg.: /dev/serial/by-id/usb-katapult_stm32f446xx_31001A001350324E31333220-if00)
 
 klipper_path: Set the path to your klipper installation
+
 katapult_path: Set the path to your katapult installation
+
 keep_old_firmware: if set to "1" the firmware used for flashen will be kept in the ./firmware/ folder, otherwise it will be removed after flashing.
